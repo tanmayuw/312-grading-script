@@ -3,7 +3,7 @@
 grading script for CSE 312: grades the submissions csv files downloaded from gradescope. 
 
 The internal structure uses [gradelib library](https://eldridgejm.github.io/gradelib/#gradelib.Gradebook).
-Allows for organization of assignments into various groups including Psets (written and coding) Concept Checks, 
+ Allows for organization of assignments into various groups including Psets (written and coding) Concept Checks, 
 Extra credit assignments and more. Score can be assigned using the score() method in the gradelib and GPA/letter grades can be assigned 
 by using the other appropriate methods listed in the library documentation. Assuming the similar structure of assignments, this script 
 can be used across multiple offerings with minor modifications. Note that gradelib does not provide custom lateness deductions and by default 
