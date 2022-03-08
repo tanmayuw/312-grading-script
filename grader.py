@@ -1,16 +1,22 @@
-# write a script which takes in the grades csv from Gradescope and computes their grades 
+####### CSE 312 grading script #######
+​
+####### Author : Tanmay Shah (tanmay@cs) #######
+####### Winter 2022, CSE 312 @ UW  instructed by Alex Tsun #######
+​
+​
+# Description: A script which takes in the grades csv from Gradescope and computes their grades 
 # according to the syllabus. The late deductions on the psets are already factored in to 
-# their grade
-
-# Return a csv of name, UW id, pset percent, quiz percent, cc percent, and overall percent 
+# their gradescope records, but Concept Checks are yet have late penalty applied. 
+​
+# Returns a csv of name, UW id, pset percent, quiz percent, cc percent, and overall percent 
 # according to the weighting in syllabus
-
-
-
+​
+​
+​
 import csv
 import re
 import numpy as np
-import gradelib as glib # NOTE: install first with pip install git+https://github.com/eldridgejm/gradelib
+import gradelib as glib # NOTE: install first with `pip install git+https://github.com/eldridgejm/gradelib`
 import pandas as pd
 
 
