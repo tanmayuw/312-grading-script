@@ -1,6 +1,6 @@
 # 312-grading-script
 
-grading script for CSE 312: grades the submissions csv files downloaded from gradescope. 
+grading script for CSE 312: grader.py grades the submissions csv files downloaded from gradescope. 
 
 The internal structure uses [gradelib library](https://eldridgejm.github.io/gradelib/#gradelib.Gradebook).
  Allows for organization of assignments into various groups including Psets (written and coding) Concept Checks, 
