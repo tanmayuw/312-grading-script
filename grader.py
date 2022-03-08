@@ -13,8 +13,6 @@
 ​
 ​
 ​
-import csv
-import re
 import numpy as np
 import gradelib as glib # NOTE: install first with `pip install git+https://github.com/eldridgejm/gradelib`
 import pandas as pd
